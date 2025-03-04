@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimal-Style</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+</head>
+<style type="text/tailwindcss">
+    @theme{
+        --font-handlee: "Handlee";
+        --font-inter: "Inter";
+        --color-noir: #0C0C0C;
+        --color-rose1: #FFC9F0;
+        --color-rose2: #F072CD;
+        --color-bordrose: #DB4A90;
+        --color-bleu: #5AB5E8;
+        --color-bordbleu: #1C6AB1;
+        --color-jaune: #E5C141;
+        --color-bordjaune: #BB9C2A;
+        --color-vert: #7CF072;
+        --color-bordvert: #4ED543;
+    }
+</style>
+
+<body class="overflow-x-hidden ">
+    <div class="h-full mx-6 lg:mx-25 border-l-[1.5px] lg:border-l-[3px] border-noir py-10 lg:pb-35 " style="background-image:radial-gradient(circle, rgba(0, 0, 0, 0.3) 1px, transparent 1px); background-size: 20px 20px;"> <!--Main-->
+
+        <header class="flex justify-between lg:flex lg:justify-end lg:gap-40 items-center px-4">
+            <div class="flex gap-2 items-center"><img class="h-[27px] lg:h-[48px] lg:w-[48px] w-[27px]"
+                    src="Assets/Imgs/star.svg" alt="logo">
+                <h2 class="text-[20px] lg:text-4xl text-noir font-bold font-handlee">znisa</h2>
+            </div>
+            <div class="flex gap-8 lg:gap-16 font-inter lg:text-2xl">
+                <h2>Portfolio</h2>
+                <h2 class="bg-gradient-to-b from-white from-40% via-rose1 to-white inline">Hire me</h2>
+            </div>
+        </header>
+        <section class="font-inter flex flex-col lg:flex-row gap-5 px-4 mt-18 lg:mt-30"> <!--Debut section 1-->
+            <div class="flex flex-col lg:flex-1">
+                <img class="w-[155px] lg:w-[340px] lg:h-[140px] h-[57px]" src="Assets/Imgs/img1.svg" alt="image">
+                <h1 class="mt-6 text-3xl lg:text-[64px] font-semibold">I design top</h1>
+                <h1 class="text-3xl font-semibold lg:text-[64px]">notch websites</h1>
+            </div>
+            <div class="flex flex-col lg:flex-1 lg:justify-end lg:pl-18 gap-4 lg:w-full w-9/10">
+                <p class="lg:text-2xl">I’ll design your website and will develop to land it on internet using No-code
+                </p>
+                <button class="bg-noir w-[84px] lg:w-[205px] py-2 lg:py-3 text-white lg:text-2xl font-semibold">Hire
+                    me</button>
+            </div>
+        </section> <!--Fin secton 1-->
+
+        <section class="px-4 mt-18 lg:mt-30"> <!--Debut Section 2-->
+            <div class="">
+                <h4 class="text-xl lg:text-[32px] font-handlee bg-rose1 font-semibold inline">What i do?</h4> <img
+                    class="rotate-[50deg] mt-2 lg:mt-4 h-[30px] lg:h-[77px]" src="Assets/Imgs/arrow.svg" alt="arrow">
+            </div>
+            <div class="flex flex-col gap-6 pl-4 lg:flex-row lg:gap-10 lg:h-[480px] lg:mt-5  lg:-ml-10">
+                <div
+                    class="z-2 lg:flex-1 flex flex-col justify-center items-center gap-4 w-95/100 h-[311px] lg:h-[452px] bg-[#FFE68C] border-5 border-jaune rounded-[8px] rotate-[-4deg]">
+                    <h5
+                        class="font-handlee font-semibold text-2xl lg:text-[32px] bg-[#9DDCFF] lg:absolute lg:-mt-65 lg:ml-55 ml-50 z-1 rotate-[4deg]">
+                        Pen/Paaper</h5>
+                    <div class="w-3/5 lg:w-4/5 mt-15"><img class="w-[32px] lg:w-[49px] lg:h-[55px] h-[35px]"
+                            src="Assets/Imgs/crayon.svg" alt="crayon"></div>
+                    <h2 class="font-inter text-2xl lg:text-4xl font-medium w-3/5 lg:w-4/5 ">User Research Design</h2>
+                </div>
+                <div
+                    class="z-2 lg:flex-1 flex flex-col justify-center items-center gap-4 w-95/100 h-[311px] lg:h-[452px] bg-[#9DDCFF] border-5 border-bleu rounded-[8px] rotate-[5deg]">
+                    <h5
+                        class="font-handlee font-semibold text-2xl lg:text-[32px] bg-[#FFC9F0] -ml-10 -mt-10 z-1 lg:rotate-[-5deg] lg:absolute lg:ml-50 lg:-mt-110">
+                        Figma</h5>
+                    <div class="w-3/5 lg:w-4/5 mt-30"><img class="w-[38px] lg:w-[60px] lg:h-[45px] h-[35px]"
+                            src="Assets/Imgs/oeil.svg" alt="oeil"></div>
+                    <h2 class="font-inter text-2xl lg:text-4xl font-medium w-3/5 lg:w-4/5">UI & Product Design</h2>
+                </div>
+                <div
+                    class="z-2 lg:flex-1 flex flex-col justify-center items-center gap-4 w-95/100 h-[311px] lg:h-[452px] bg-[#FFC9F0] border-5 border-rose2 rounded-[8px] rotate-[-5deg]">
+                    <h5
+                        class="font-handlee font-semibold text-2xl lg:text-[32px] bg-[#FFE68C] -ml-55 z-1 rotate-[5deg] lg:absolute lg:ml-65 lg:-mt-30">
+                        Webflow</h5>
+                    <div class="w-3/5 lg:w-4/5 mt-15"><img class="w-[43px] lg:w-[54px] lg:h-[54px] h-[43px]"
+                            src="Assets/Imgs/star2.svg" alt="star"></div>
+                    <h2 class="font-inter text-2xl lg:text-4xl font-medium w-3/5 lg:w-4/5">No-code Development</h2>
+                </div>
+            </div>
+        </section> <!--Fin section 2-->
+
+        <section class="px-4 mt-18 lg:mt-30">
+            <div class="">
+                <h4 class="text-xl lg:text-[32px] font-handlee bg-rose1 font-semibold inline">Features Projects</h4> 
+                <img class="rotate-[50deg] mt-2 lg:mt-4 h-[30px] lg:h-[77px]" src="Assets/Imgs/arrow.svg" alt="arrow">
+                <p>Have designed morethan 20 projects</p>
+            </div>
+            <div>
+                <img src="Assets/Imgs/portfolioDesign.svg" alt="portfolioDesign">
+                <div>
+                    <h1>4 style Portfolio design</h1>
+                    <div>
+                        <img src="" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="px-4 mt-18 lg:mt-30 flex flex-col lg:flex-row gap-8"> <!--Debut section 4-->
+            <div class="flex flex-col gap-4 items-start flex-1 mr-30">
+                <h4 class="text-xl lg:text-[32px] font-handlee bg-rose1 font-semibold inline">Work Experience</h4>
+                <div class="flex w-full lg:justify-end"><img class="rotate-[50deg] lg:rotate-[0deg] mt-2 lg:mt-4 h-[30px] lg:h-[77px]" src="Assets/Imgs/arrow.svg" alt="arrow"></div>
+                <div class="lg:text-2xl text-noir">
+                    <p>Have been designing</p>
+                    <p>since my past 4 years</p>
+                </div>
+            </div>
+            <div class="flex flex-col lg:justify-center lg:items-center gap-4 gap-8 flex-3 lg:border-2 lg:py-10">
+                <div>
+                    <div class="flex items-center gap-4">
+                        <div
+                            class="w-[60px] h-[56px] lg:w-[95px] lg:h-[88px] rounded-[4px] lg:rounded-[7px] bg-[#FFE68C] border-[2px] border-[#EECD56] flex justify-center items-center text-[30px] font-semibold font-handlee">
+                            1</div>
+                        <div class="flex flex-col gap-1">
+                            <div class="flex gap-1 lg:text-2xl text-noir">Design intern at <h1 class="font-bold">Google</h1>
+                            </div>
+                            <p class="text-[10px] lg:text-[18px] text-noir">Worked on design system at Material designs
+                            </p>
+                            <h6 class="text-[9px] lg:text-base text-[#706F6F] font-medium">20, April 2021</h6>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex items-center gap-4">
+                        <div
+                            class="w-[60px] h-[56px] lg:w-[95px] lg:h-[88px] rounded-[4px] lg:rounded-[7px] bg-[#9DDCFF] border-[2px] border-[#5AB5E8] flex justify-center items-center text-[30px] font-semibold font-handlee">
+                            2</div>
+                        <div class="flex flex-col gap-1">
+                            <div class="flex gap-1 lg:text-2xl text-noir">UI/UX Designer at  <h1 class="font-bold">Microsoft</h1>
+                            </div>
+                            <p class="text-[10px] lg:text-[18px] text-noir">Worked on design system at Material designs
+                            </p>
+                            <h6 class="text-[9px] lg:text-base text-[#706F6F] font-medium">20, April 2021</h6>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex items-center gap-4">
+                        <div
+                            class="w-[60px] h-[56px] lg:w-[95px] lg:h-[88px] rounded-[4px] lg:rounded-[7px] bg-[#FFC9F0] border-[2px] border-[#F384D4] flex justify-center items-center text-[30px] font-semibold font-handlee">
+                            3</div>
+                        <div class="flex flex-col gap-1">
+                            <div class="flex gap-1 lg:text-2xl text-noir">Design intern at <h1 class="font-bold">Google</h1>
+                            </div>
+                            <p class="text-[10px] lg:text-[18px] text-noir">Worked on design system at Material designs
+                            </p>
+                            <h6 class="text-[9px] lg:text-base text-[#706F6F] font-medium">20, April 2021</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> <!--Fin section 4-->
+
+        <section class="px-4 lg:px-10 mt-18 lg:mt-35 flex flex-col lg:flex-row gap-8"> <!--Debut section 5-->
+            <div class="flex flex-col gap-4 items-start flex-1 mr-30">
+                <h4 class="text-xl lg:text-[32px] font-handlee bg-rose1 font-semibold inline">Contact Here</h4>
+                <div class="flex w-full lg:justify-end"><img class="rotate-[50deg] lg:rotate-[0deg] mt-2 lg:mt-4 h-[30px] lg:h-[77px]" src="Assets/Imgs/arrow.svg" alt="arrow"></div>
+                <div class="lg:text-2xl text-noir">
+                    <p>Have a project idea?</p>
+                    <p>just say me <b>Hi.</b></p>
+                </div>
+            </div>
+            <form class="flex flex-col gap-8 lg:gap-16 font-handlee flex-3 lg:ml-15"  action="Traitement.php">
+                <div class="flex">
+                    <label class="bg-[#FFC9F0] pl-[2px] border-l-[1px] lg:border-l-[2px] flex items-center font-semibold lg:text-[32px]" for="name">Name</label>
+                    <div class="w-full pl-4 border-b-[1px] lg:border-b-[2px]"><input class="outline-none w-full lg:text-[28px]" id="name" type="text" placeholder="Zainab Nisa"></div>
+                </div>
+                <div class="flex">
+                    <label class="bg-[#FFE68C] pl-[2px] border-l-[1px] lg:border-l-[2px] flex items-center font-semibold lg:text-[32px]" for="mail">Your_email</label>
+                    <div class="w-full pl-4 border-b-[1px] lg:border-b-[2px]"><input class="outline-none w-full lg:text-[28px]" id="mail" type="email" placeholder="zainab123@gmail.com"></div>
+                </div>
+                <div class="flex">
+                    <label class="bg-[#9DDCFF] pl-[2px] border-l-[1px] lg:border-l-[2px] flex items-center font-semibold lg:text-[32px]" for="about">About_Project</label>
+                    <div class="w-full pl-4 border-b-[1px] lg:border-b-[2px]"><input class="outline-none w-full lg:text-[28px]" id="about" type="text" placeholder=" I want to discuss you about ......."></div>
+                </div>
+                <div class="w-full flex lg:justify-end"><button type="submit" class="w-[120px] lg:w-[200px] py-2 lg:py-3 lg:text-2xl bg-noir font-inter font-semibold text-white rotate-[2deg]">Send Here</button></div>
+            </form>
+        </section> <!--Fin section 5-->
+    </div><!--Main-->
+    <hr class="bg-noir h-[1.5px] lg:h-[3px] ml-6 lg:ml-0">
+    <footer class="mx-6 lg:mx-25 border-l-[1.5px] lg:border-l-[3px] border-noir pt-12 lg:pt-20 pb-6 pl-4 lg:pl-8 text-noir flex flex-col lg:flex-row lg:justify-between gap-6" style="background-image:radial-gradient(circle, rgba(0, 0, 0, 0.3) 1px, transparent 1px); background-size: 20px 20px;">
+        <div class="flex gap-2"><img class="h-[27px] lg:h-[48px] lg:w-[48px] w-[27px]"
+            src="Assets/Imgs/star.svg" alt="logo">
+            <h2 class="text-[20px] lg:text-4xl text-noir font-bold font-handlee">znisa</h2>
+        </div>
+        <div class="flex flex-col gap-2 lg:gap-6 lg:items-center">
+            <div class="flex gap-6">
+                <a href="#" class="bg-noir text-white font-handlee lg:text-[32px]">Twittwe X</a>
+                <a href="#" class="bg-noir text-white font-handlee lg:text-[32px]">Linkdn</a>
+                <a href="#" class="bg-noir text-white font-handlee lg:text-[32px]">Instagram</a>
+            </div>
+            <h6 class="font-inter lg:text-2xl font-normal">Copyright. Portfolio 2024</h6>
+        </div>
+    </footer>
+
+</html>
